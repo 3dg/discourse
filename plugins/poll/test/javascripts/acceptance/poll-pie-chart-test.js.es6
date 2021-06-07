@@ -1,4 +1,6 @@
 import { acceptance, queryAll } from "discourse/tests/helpers/qunit-helpers";
+import { test } from "qunit";
+import { visit } from "@ember/test-helpers";
 
 acceptance("Rendering polls with pie charts", function (needs) {
   needs.user();
